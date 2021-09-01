@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2064783718284822775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3876483904541902505}
+  - component: {fileID: 4293084114398288372}
+  - component: {fileID: 5206182393789648098}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3876483904541902505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064783718284822775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4293084114398288372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064783718284822775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb719ef4e7cc8d43a9b1940dc3a2f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokerCard_0: {fileID: 5859076079020623564, guid: 184f2cc8d03ffd14693ca9648ebf8a8f, type: 3}
+  pokerCard_05: {fileID: 483430341112136688, guid: 9297fe7a1294d8b4d96a9fb18812921b, type: 3}
+  pokerCard_1: {fileID: 6426563059375524514, guid: b402eae657dab25489837c7ea033a8d9, type: 3}
+  pokerCard_2: {fileID: 4173396947531099438, guid: 6403f6c3fbe81fa49905f2cf88ae35f1, type: 3}
+  pokerCard_3: {fileID: 8580692795065651934, guid: 46a912d37a1ac5c438757e7be700fa16, type: 3}
+  pokerCard_5: {fileID: 4642319525192243198, guid: cf664ba59d090a545b8495c44d1e543c, type: 3}
+  pokerCard_8: {fileID: 8307207915325079770, guid: dd4e14dc74c94dc43ae4e04a5c401e4b, type: 3}
+  pokerCard_13: {fileID: 4162741519884095902, guid: bf3d312c02df8cd47adecebbbd88a556, type: 3}
+  pokerCard_20: {fileID: 6065717877531493688, guid: 8bc299d1a86db7e4fbb53338c9ee3d44, type: 3}
+  pokerCard_40: {fileID: 2865829595722127867, guid: be139bc266c90264eb75d3a4381ebc58, type: 3}
+  pokerCard_100: {fileID: 7916575363295871483, guid: 5c44fde95bd05aa4da50e3be7b798f74, type: 3}
+  pokerCard_Question: {fileID: 697848246125707483, guid: b305b8f9ecca11b4fa548b448a600dd8, type: 3}
+  playerCamera: {fileID: 6312127730123213567, guid: 2e5ce072652ed514da6d249b26877fe8, type: 3}
+--- !u!114 &5206182393789648098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064783718284822775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NetworkInstanceId: 0
+  PrefabHash: 13494567273885427380
+  PrefabHashGenerator: GameManager
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
